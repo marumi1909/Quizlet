@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server",
     "build": "babel src -d server --copy-file",
     "clean": "rm -rf server"
   },
